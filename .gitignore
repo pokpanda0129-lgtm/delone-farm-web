@@ -1,0 +1,16 @@
+# IDE
+.idea/
+.vscode/
+
+# Nuxt
+nuxt-app/.nuxt/
+nuxt-app/.output/
+nuxt-app/node_modules/
+
+# 환경변수
+nuxt-app/.env
+nuxt-app/.env.*
+!nuxt-app/.env.example
+
+# Claude Code 로컬 설정
+.claude/settings.local.json
