@@ -1,0 +1,13 @@
+version: "3"
+services:
+  frontend:
+    build:
+      context: ./nuxt-app
+      dockerfile: Dockerfile.dev
+    ports:
+      - "3001:3000"
+    volumes:
+      - ./nuxt-app:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development

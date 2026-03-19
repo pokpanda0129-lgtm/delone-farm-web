@@ -8,4 +8,11 @@ export default defineNuxtConfig({
   components: [
     { path: '~/components', pathPrefix: false },
   ],
+  runtimeConfig: {
+    adminPassword: process.env.ADMIN_PASSWORD,
+    public: {
+      supabaseUrl: process.env.SUPABASE_URL,
+      supabaseKey: process.env.SUPABASE_KEY,
+    },
+  },
 })

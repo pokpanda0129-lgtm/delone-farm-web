@@ -44,6 +44,8 @@ npm run dev
 
 Vercel에 연결되어 있으며 `main` 브랜치에 push하면 자동으로 배포됩니다.
 
+push 및 PR 시 GitHub Actions(`.github/workflows/ci.yml`)가 먼저 빌드 오류 여부를 확인합니다.
+
 ## 이미지 출처
 
 사이트에서 사용하는 모든 이미지는 [Pexels](https://www.pexels.com)의 무료 라이선스 이미지입니다.
