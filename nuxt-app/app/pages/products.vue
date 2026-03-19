@@ -12,15 +12,15 @@
         <div class="product-grid">
 
           <div class="product-detail-card featured">
-            <div class="card-emoji">🥝</div>
+            <img src="https://images.pexels.com/photos/3904800/pexels-photo-3904800.jpeg?auto=compress&cs=tinysrgb&w=400" alt="키위" class="card-img" />
             <div class="card-body">
               <div class="card-badge">인기 No.1</div>
-              <h2>Zespri 골드키위</h2>
+              <h2>Zespri 키위</h2>
               <p class="card-origin">🌏 원산지: 뉴질랜드</p>
               <p class="card-desc">
-                세계 1위 키위 브랜드 Zespri의 공인 판매처입니다. 뉴질랜드 햇살을 가득 머금은 골드키위는
+                세계 1위 키위 브랜드 Zespri의 공인 판매처입니다. 뉴질랜드 햇살을 가득 머금은 키위는
                 일반 그린키위보다 달콤하고 부드러우며, 비타민C 함량이 오렌지의 약 3배에 달합니다.
-                카페, 호텔, 마트, 급식소 등 다양한 업종에 납품 중입니다.
+                카페, 호텔, 마트, 사찰 등 다양한 업종에 납품 중입니다.
               </p>
               <ul class="card-features">
                 <li>✓ Zespri 공인 판매처</li>
@@ -31,7 +31,7 @@
           </div>
 
           <div class="product-detail-card">
-            <div class="card-emoji">🍋</div>
+            <img src="https://images.pexels.com/photos/556414/pexels-photo-556414.jpeg?auto=compress&cs=tinysrgb&w=400" alt="레몬" class="card-img" />
             <div class="card-body">
               <h2>레몬</h2>
               <p class="card-origin">🌏 원산지: 미국 · 칠레</p>
@@ -49,7 +49,7 @@
           </div>
 
           <div class="product-detail-card">
-            <div class="card-emoji">🥭</div>
+            <img src="https://images.pexels.com/photos/7570879/pexels-photo-7570879.jpeg?auto=compress&cs=tinysrgb&w=400" alt="망고" class="card-img" />
             <div class="card-body">
               <h2>망고</h2>
               <p class="card-origin">🌏 원산지: 태국 · 필리핀</p>
@@ -66,7 +66,7 @@
           </div>
 
           <div class="product-detail-card">
-            <div class="card-emoji">🍊</div>
+            <img src="https://images.pexels.com/photos/2247142/pexels-photo-2247142.jpeg?auto=compress&cs=tinysrgb&w=400" alt="오렌지" class="card-img" />
             <div class="card-body">
               <h2>오렌지 / 자몽</h2>
               <p class="card-origin">🌏 원산지: 미국 · 남아프리카공화국</p>
@@ -82,7 +82,7 @@
           </div>
 
           <div class="product-detail-card">
-            <div class="card-emoji">🍇</div>
+            <img src="https://images.pexels.com/photos/708777/pexels-photo-708777.jpeg?auto=compress&cs=tinysrgb&w=400" alt="포도" class="card-img" />
             <div class="card-body">
               <h2>수입 포도</h2>
               <p class="card-origin">🌏 원산지: 칠레 · 페루</p>
@@ -97,17 +97,139 @@
             </div>
           </div>
 
-          <div class="product-detail-card inquiry">
-            <div class="card-emoji">📦</div>
+          <div class="product-detail-card">
+            <img src="https://images.pexels.com/photos/2238316/pexels-photo-2238316.jpeg?auto=compress&cs=tinysrgb&w=400" alt="바나나" class="card-img" />
             <div class="card-body">
-              <h2>기타 수입과일</h2>
+              <h2>바나나</h2>
+              <p class="card-origin">🌏 원산지: 필리핀 · 에콰도르</p>
               <p class="card-desc">
-                위 품목 외에도 시즌별로 다양한 수입과일을 취급합니다.<br>
-                필요한 품목이 있으시면 언제든지 문의해 주세요.
+                달콤하고 부드러워 남녀노소 즐겨 찾는 인기 과일입니다.
+                필리핀산과 에콰도르산을 시즌에 따라 공급하며, 연중 안정적으로 납품 가능합니다.
               </p>
-              <NuxtLink to="/contact" class="btn-primary">문의하기</NuxtLink>
+              <ul class="card-features">
+                <li>✓ 연중 안정 공급</li>
+                <li>✓ 박스 단위 도매 납품</li>
+              </ul>
             </div>
           </div>
+
+          <div class="product-detail-card">
+            <img src="https://images.pexels.com/photos/966416/pexels-photo-966416.jpeg?auto=compress&cs=tinysrgb&w=400" alt="체리" class="card-img" />
+            <div class="card-body">
+              <h2>체리</h2>
+              <p class="card-origin">🌏 원산지: 미국 · 칠레</p>
+              <p class="card-desc">새콤달콤한 맛으로 인기 높은 프리미엄 과일입니다. 미국산과 칠레산을 시즌에 따라 공급합니다.</p>
+              <ul class="card-features">
+                <li>✓ 시즌별 산지 선택 공급</li>
+                <li>✓ 선물용·소매용 납품</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="product-detail-card">
+            <img src="https://images.pexels.com/photos/11170935/pexels-photo-11170935.jpeg?auto=compress&cs=tinysrgb&w=400" alt="배" class="card-img" />
+            <div class="card-body">
+              <h2>배</h2>
+              <p class="card-origin">🌏 원산지: 중국 · 미국</p>
+              <p class="card-desc">부드럽고 달콤한 과즙이 풍부한 수입 배를 공급합니다. 추석·명절 선물용 수요에도 대응합니다.</p>
+              <ul class="card-features">
+                <li>✓ 명절·선물용 납품</li>
+                <li>✓ 박스 단위 공급</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="product-detail-card">
+            <img src="https://images.pexels.com/photos/209439/pexels-photo-209439.jpeg?auto=compress&cs=tinysrgb&w=400" alt="사과" class="card-img" />
+            <div class="card-body">
+              <h2>사과</h2>
+              <p class="card-origin">🌏 원산지: 미국 · 뉴질랜드</p>
+              <p class="card-desc">아삭하고 달콤한 수입 사과를 공급합니다. 후지, 갈라, 핑크레이디 등 다양한 품종을 취급합니다.</p>
+              <ul class="card-features">
+                <li>✓ 다양한 품종 취급</li>
+                <li>✓ 연중 안정 공급</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="product-detail-card">
+            <img src="https://images.pexels.com/photos/7657269/pexels-photo-7657269.jpeg?auto=compress&cs=tinysrgb&w=400" alt="메론" class="card-img" />
+            <div class="card-body">
+              <h2>메론</h2>
+              <p class="card-origin">🌏 원산지: 일본 · 중국</p>
+              <p class="card-desc">고급스러운 향과 달콤한 과육으로 인기 높은 프리미엄 과일입니다. 선물용으로도 수요가 많습니다.</p>
+              <ul class="card-features">
+                <li>✓ 선물용·고급 납품</li>
+                <li>✓ 숙도 조절 가능</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="product-detail-card">
+            <img src="https://images.pexels.com/photos/10649622/pexels-photo-10649622.jpeg?auto=compress&cs=tinysrgb&w=400" alt="석류" class="card-img" />
+            <div class="card-body">
+              <h2>석류</h2>
+              <p class="card-origin">🌏 원산지: 터키 · 이란</p>
+              <p class="card-desc">항산화 성분이 풍부한 건강 과일입니다. 주스·디저트·샐러드 등 다양한 용도로 활용됩니다.</p>
+              <ul class="card-features">
+                <li>✓ 건강식품 수요 대응</li>
+                <li>✓ 시즌별 공급</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="product-detail-card">
+            <img src="https://images.pexels.com/photos/2912621/pexels-photo-2912621.jpeg?auto=compress&cs=tinysrgb&w=400" alt="밀감" class="card-img" />
+            <div class="card-body">
+              <h2>밀감</h2>
+              <p class="card-origin">🌏 원산지: 중국 · 일본</p>
+              <p class="card-desc">새콤달콤하고 껍질 벗기기 쉬운 귤·밀감을 공급합니다. 겨울 시즌 수요가 특히 높습니다.</p>
+              <ul class="card-features">
+                <li>✓ 시즌 집중 공급</li>
+                <li>✓ 박스 단위 납품</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="product-detail-card">
+            <img src="https://images.pexels.com/photos/298696/pexels-photo-298696.jpeg?auto=compress&cs=tinysrgb&w=400" alt="딸기" class="card-img" />
+            <div class="card-body">
+              <h2>딸기</h2>
+              <p class="card-origin">🌏 원산지: 미국 · 캐나다</p>
+              <p class="card-desc">탐스럽고 새빨간 수입 딸기를 공급합니다. 카페·제과제빵·디저트 업체에서 특히 수요가 높습니다.</p>
+              <ul class="card-features">
+                <li>✓ 카페·베이커리 납품</li>
+                <li>✓ 냉장 신선 공급</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="product-detail-card">
+            <img src="https://images.pexels.com/photos/895476/pexels-photo-895476.jpeg?auto=compress&cs=tinysrgb&w=400" alt="블루베리" class="card-img" />
+            <div class="card-body">
+              <h2>블루베리</h2>
+              <p class="card-origin">🌏 원산지: 미국 · 칠레 · 페루</p>
+              <p class="card-desc">항산화 성분이 풍부한 슈퍼푸드입니다. 생과·냉동 모두 취급하며 카페·주스바에서 인기가 높습니다.</p>
+              <ul class="card-features">
+                <li>✓ 생과 / 냉동 취급</li>
+                <li>✓ 연중 안정 공급</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="product-detail-card">
+            <img src="https://images.pexels.com/photos/1753050/pexels-photo-1753050.jpeg?auto=compress&cs=tinysrgb&w=400" alt="아보카도" class="card-img" />
+            <div class="card-body">
+              <h2>아보카도</h2>
+              <p class="card-origin">🌏 원산지: 멕시코 · 페루</p>
+              <p class="card-desc">건강한 지방이 풍부한 트렌디 과일입니다. 레스토랑·카페·샐러드 전문점에서 꾸준히 수요가 증가하고 있습니다.</p>
+              <ul class="card-features">
+                <li>✓ 숙도 단계별 공급</li>
+                <li>✓ 레스토랑·카페 납품</li>
+              </ul>
+            </div>
+          </div>
+
 
         </div>
       </div>
@@ -119,22 +241,44 @@
         <h2 class="section-title">납품 안내</h2>
         <div class="info-grid">
           <div class="info-item">
-            <div class="info-icon">🏪</div>
+            <div class="info-icon-wrap">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                <polyline points="9 22 9 12 15 12 15 22"/>
+              </svg>
+            </div>
             <h3>납품 대상</h3>
-            <p>소매점, 마트, 카페, 식당,<br>제과·제빵, 급식업체 등</p>
+            <p>소매점, 마트, 카페, 식당,<br>제과·제빵, 사찰 등</p>
           </div>
           <div class="info-item">
-            <div class="info-icon">📦</div>
+            <div class="info-icon-wrap">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                <polyline points="3.27 6.96 12 12.01 20.73 6.96"/>
+                <line x1="12" y1="22.08" x2="12" y2="12"/>
+              </svg>
+            </div>
             <h3>최소 주문</h3>
             <p>품목별 박스 단위 공급<br>상담을 통해 조율 가능</p>
           </div>
           <div class="info-item">
-            <div class="info-icon">🚚</div>
+            <div class="info-icon-wrap">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="1" y="3" width="15" height="13" rx="1"/>
+                <path d="M16 8h4l3 5v3h-7V8z"/>
+                <circle cx="5.5" cy="18.5" r="2.5"/>
+                <circle cx="18.5" cy="18.5" r="2.5"/>
+              </svg>
+            </div>
             <h3>배송 지역</h3>
             <p>포항 및 경북 인근 지역<br>직접 배송 가능</p>
           </div>
           <div class="info-item">
-            <div class="info-icon">📞</div>
+            <div class="info-icon-wrap">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.77 1.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+            </div>
             <h3>주문 문의</h3>
             <p>054-262-3323<br>010-3524-5144</p>
           </div>
@@ -214,15 +358,19 @@
   border-color: var(--color-primary-border);
 }
 
-.product-detail-card.inquiry {
-  align-items: center;
-  background: #f8f8f8;
-}
 
 .card-emoji {
   font-size: 3.5rem;
   flex-shrink: 0;
   line-height: 1;
+}
+
+.card-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 12px;
+  flex-shrink: 0;
 }
 
 .card-body {
@@ -310,14 +458,27 @@
 .info-item {
   background: #fff;
   border-radius: 16px;
-  padding: 32px 20px;
+  padding: 36px 24px;
   text-align: center;
   box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  transition: box-shadow 0.2s, transform 0.2s;
 }
 
-.info-icon {
-  font-size: 2.2rem;
-  margin-bottom: 14px;
+.info-item:hover {
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  transform: translateY(-2px);
+}
+
+.info-icon-wrap {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  background: var(--color-primary-light);
+  border-radius: 14px;
+  color: var(--color-primary);
+  margin-bottom: 18px;
 }
 
 .info-item h3 {

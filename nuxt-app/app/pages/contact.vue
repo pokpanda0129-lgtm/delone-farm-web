@@ -17,7 +17,12 @@
 
             <div class="info-block">
               <div class="info-row">
-                <span class="info-icon">🏢</span>
+                <span class="info-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                    <polyline points="9 22 9 12 15 12 15 22"/>
+                  </svg>
+                </span>
                 <div>
                   <p class="info-label">상호명</p>
                   <p class="info-value">델원농산</p>
@@ -25,7 +30,12 @@
               </div>
 
               <div class="info-row">
-                <span class="info-icon">📍</span>
+                <span class="info-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                    <circle cx="12" cy="10" r="3"/>
+                  </svg>
+                </span>
                 <div>
                   <p class="info-label">주소</p>
                   <p class="info-value">경북 포항시 북구 흥해읍 칠포로 38번길 4</p>
@@ -33,7 +43,11 @@
               </div>
 
               <div class="info-row">
-                <span class="info-icon">📞</span>
+                <span class="info-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.77 1.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+                  </svg>
+                </span>
                 <div>
                   <p class="info-label">대표 전화</p>
                   <a href="tel:054-262-3323" class="info-value info-link">054-262-3323</a>
@@ -41,7 +55,12 @@
               </div>
 
               <div class="info-row">
-                <span class="info-icon">📱</span>
+                <span class="info-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="5" y="2" width="14" height="20" rx="2" ry="2"/>
+                    <line x1="12" y1="18" x2="12.01" y2="18"/>
+                  </svg>
+                </span>
                 <div>
                   <p class="info-label">휴대폰</p>
                   <a href="tel:010-3524-5144" class="info-value info-link">010-3524-5144</a>
@@ -49,7 +68,12 @@
               </div>
 
               <div class="info-row">
-                <span class="info-icon">🕐</span>
+                <span class="info-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"/>
+                    <polyline points="12 6 12 12 16 14"/>
+                  </svg>
+                </span>
                 <div>
                   <p class="info-label">운영 시간</p>
                   <p class="info-value">평일 09:00 – 18:00</p>
@@ -60,10 +84,17 @@
 
             <div class="tel-buttons">
               <a href="tel:054-262-3323" class="tel-btn">
-                📞 054-262-3323 전화하기
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.77 1.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+                </svg>
+                054-262-3323 전화하기
               </a>
               <a href="tel:010-3524-5144" class="tel-btn mobile">
-                📱 010-3524-5144 전화하기
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="5" y="2" width="14" height="20" rx="2" ry="2"/>
+                  <line x1="12" y1="18" x2="12.01" y2="18"/>
+                </svg>
+                010-3524-5144 전화하기
               </a>
             </div>
           </div>
@@ -73,7 +104,7 @@
             <h2>오시는 길</h2>
             <div class="map-card">
               <div class="map-address-block">
-                <p class="map-name">📍 델원농산</p>
+                <p class="map-name">델원농산</p>
                 <p class="map-addr">경북 포항시 북구 흥해읍 칠포로 38번길 4</p>
               </div>
               <div class="map-buttons">
@@ -107,24 +138,59 @@
         <h2 class="section-title">이런 분들이 연락주세요</h2>
         <div class="inquiry-grid">
           <div class="inquiry-item">
-            <div class="inquiry-icon">🏪</div>
-            <h3>소매점 · 마트</h3>
-            <p>수입과일 정기 납품을 원하시는 소매점, 슈퍼마켓, 과일 전문점</p>
+            <div class="inquiry-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+              </svg>
+            </div>
+            <h3>소매점 · 시장</h3>
+            <p>수입과일 정기 납품을 원하시는 소매점, 전통시장, 과일 전문점</p>
           </div>
           <div class="inquiry-item">
-            <div class="inquiry-icon">☕</div>
+            <div class="inquiry-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/>
+                <line x1="3" y1="6" x2="21" y2="6"/>
+                <path d="M16 10a4 4 0 0 1-8 0"/>
+              </svg>
+            </div>
+            <h3>마트</h3>
+            <p>슈퍼마켓, 중소형 마트 등 정기적으로 수입과일을 진열·판매하는 업체</p>
+          </div>
+          <div class="inquiry-item">
+            <div class="inquiry-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 8h1a4 4 0 0 1 0 8h-1"/>
+                <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/>
+                <line x1="6" y1="1" x2="6" y2="4"/>
+                <line x1="10" y1="1" x2="10" y2="4"/>
+                <line x1="14" y1="1" x2="14" y2="4"/>
+              </svg>
+            </div>
             <h3>카페 · 식음료</h3>
             <p>레몬, 키위, 망고 등을 정기 구매하는 카페, 쥬스바, 베이커리</p>
           </div>
           <div class="inquiry-item">
-            <div class="inquiry-icon">🍽️</div>
+            <div class="inquiry-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/>
+                <line x1="7" y1="2" x2="7" y2="22"/>
+                <path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3zm0 0v7"/>
+              </svg>
+            </div>
             <h3>식당 · 호텔</h3>
             <p>다양한 수입과일을 식재료로 사용하는 레스토랑, 호텔, 뷔페</p>
           </div>
           <div class="inquiry-item">
-            <div class="inquiry-icon">🏫</div>
-            <h3>급식 · 단체</h3>
-            <p>학교, 병원, 기업 등 대량 구매가 필요한 급식 및 단체급식 업체</p>
+            <div class="inquiry-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/>
+                <path d="M13.73 21a2 2 0 0 1-3.46 0"/>
+              </svg>
+            </div>
+            <h3>사찰 · 종교시설</h3>
+            <p>공양·제례 등 다양한 목적으로 과일을 구매하는 사찰 및 종교시설</p>
           </div>
         </div>
       </div>
@@ -205,9 +271,15 @@
 }
 
 .info-icon {
-  font-size: 1.4rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  background: var(--color-primary-light);
+  border-radius: 10px;
+  color: var(--color-primary);
   flex-shrink: 0;
-  margin-top: 2px;
 }
 
 .info-label {
@@ -245,7 +317,10 @@
 }
 
 .tel-btn {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
   background: var(--color-primary);
   color: #fff;
   font-weight: 700;
@@ -336,7 +411,7 @@
 
 .inquiry-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 24px;
 }
 
@@ -349,8 +424,15 @@
 }
 
 .inquiry-icon {
-  font-size: 2.2rem;
-  margin-bottom: 14px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  background: var(--color-primary-light);
+  border-radius: 14px;
+  color: var(--color-primary);
+  margin-bottom: 18px;
 }
 
 .inquiry-item h3 {
