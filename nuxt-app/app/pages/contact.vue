@@ -2,7 +2,6 @@
   <div>
     <section class="page-hero">
       <div class="page-hero-inner">
-        <p class="hero-badge">연락처 및 위치</p>
         <h1>언제든지 연락주세요</h1>
         <p>도매 문의, 납품 상담 모두 환영합니다.</p>
       </div>
@@ -72,26 +71,30 @@
           <!-- 지도 -->
           <div class="map-area">
             <h2>오시는 길</h2>
-            <div class="map-embed">
-              <iframe
-                src="https://maps.google.com/maps?q=경북+포항시+북구+흥해읍+칠포로+38번길+4&output=embed&hl=ko"
-                width="100%"
-                height="100%"
-                style="border: 0;"
-                allowfullscreen
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-                title="델원농산 위치"
-              />
+            <div class="map-card">
+              <div class="map-address-block">
+                <p class="map-name">📍 델원농산</p>
+                <p class="map-addr">경북 포항시 북구 흥해읍 칠포로 38번길 4</p>
+              </div>
+              <div class="map-buttons">
+                <a
+                  href="https://map.naver.com/p/search/델원농산/place/288978580"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="map-btn naver"
+                >
+                  네이버지도에서 보기
+                </a>
+                <a
+                  href="https://map.kakao.com/?q=경북+포항시+북구+흥해읍+칠포로+38번길+4"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="map-btn kakao"
+                >
+                  카카오맵에서 보기
+                </a>
+              </div>
             </div>
-            <a
-              href="https://maps.google.com/maps?q=경북+포항시+북구+흥해읍+칠포로+38번길+4"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="map-link"
-            >
-              Google 지도에서 크게 보기 →
-            </a>
           </div>
 
         </div>
@@ -131,8 +134,8 @@
 
 <style scoped>
 .page-hero {
-  background: linear-gradient(135deg, #f8fdf9 0%, #edf9f0 100%);
-  border-bottom: 1px solid #e0f0e4;
+  background: linear-gradient(135deg, var(--color-primary-bg) 0%, var(--color-primary-light) 100%);
+  border-bottom: 1px solid var(--color-primary-border);
 }
 
 .page-hero-inner {
@@ -144,7 +147,7 @@
 
 .hero-badge {
   display: inline-block;
-  background: #2d7a3a;
+  background: var(--color-primary);
   color: #fff;
   font-size: 0.78rem;
   font-weight: 700;
@@ -224,10 +227,10 @@
 
 .info-link {
   text-decoration: none;
-  color: #2d7a3a;
+  color: var(--color-primary);
   transition: color 0.2s;
 }
-.info-link:hover { color: #235f2c; }
+.info-link:hover { color: var(--color-primary-dark); }
 
 .info-sub {
   font-size: 0.8rem;
@@ -243,7 +246,7 @@
 
 .tel-btn {
   display: block;
-  background: #2d7a3a;
+  background: var(--color-primary);
   color: #fff;
   font-weight: 700;
   font-size: 0.95rem;
@@ -253,39 +256,74 @@
   text-align: center;
   transition: background 0.2s;
 }
-.tel-btn:hover { background: #235f2c; }
+.tel-btn:hover { background: var(--color-primary-dark); }
 .tel-btn.mobile {
   background: #fff;
-  color: #2d7a3a;
-  border: 2px solid #2d7a3a;
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
 }
 .tel-btn.mobile:hover {
-  background: #2d7a3a;
+  background: var(--color-primary);
   color: #fff;
 }
 
 /* 지도 */
-.map-embed {
-  width: 100%;
-  height: 360px;
-  border-radius: 16px;
-  overflow: hidden;
-  border: 1px solid #e8e8e8;
-  margin-bottom: 12px;
-  background: #f0f0f0;
+.map-card {
+  background: var(--color-primary-bg);
+  border: 1px solid var(--color-primary-border);
+  border-radius: 20px;
+  padding: 32px;
 }
 
-.map-link {
-  font-size: 0.85rem;
-  color: #2d7a3a;
-  font-weight: 600;
-  text-decoration: none;
+.map-address-block {
+  margin-bottom: 24px;
 }
-.map-link:hover { text-decoration: underline; }
+
+.map-name {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #1a1a1a;
+  margin-bottom: 8px;
+}
+
+.map-addr {
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+.map-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.map-btn {
+  display: block;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 700;
+  padding: 13px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+.map-btn:hover { opacity: 0.85; }
+
+.map-btn.naver {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+.map-btn.kakao {
+  background: #FEE500;
+  color: #3C1E1E;
+}
+
 
 /* 문의 안내 */
 .inquiry-section {
-  background: #f8fdf9;
+  background: var(--color-primary-bg);
 }
 
 .section-title {

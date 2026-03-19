@@ -53,7 +53,7 @@
 .brand-en {
   font-size: 0.65rem;
   font-weight: 600;
-  color: #f5a623;
+  color: var(--color-accent);
   letter-spacing: 2px;
   margin: 0;
 }
@@ -83,7 +83,7 @@
 }
 
 .footer-info a:hover {
-  color: #f5a623;
+  color: var(--color-accent);
 }
 
 .footer-bottom {

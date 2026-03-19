@@ -62,14 +62,14 @@ const menuOpen = ref(false)
 .logo-main {
   font-size: 1.25rem;
   font-weight: 800;
-  color: #2d7a3a;
+  color: var(--color-primary);
   letter-spacing: -0.5px;
 }
 
 .logo-sub {
   font-size: 0.6rem;
   font-weight: 600;
-  color: #f5a623;
+  color: var(--color-accent);
   letter-spacing: 2px;
 }
 
@@ -89,7 +89,7 @@ const menuOpen = ref(false)
 
 .nav-link:hover,
 .nav-link.router-link-active {
-  color: #2d7a3a;
+  color: var(--color-primary);
 }
 
 /* 햄버거 */
@@ -148,8 +148,8 @@ const menuOpen = ref(false)
 
 .mobile-link:hover,
 .mobile-link.router-link-active {
-  color: #2d7a3a;
-  background: #f6fdf7;
+  color: var(--color-primary);
+  background: var(--color-primary-bg);
 }
 
 @media (max-width: 768px) {

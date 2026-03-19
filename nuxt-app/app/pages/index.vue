@@ -78,18 +78,6 @@
       </div>
     </section>
 
-    <!-- CTA 섹션 -->
-    <section class="cta-section">
-      <div class="section-inner cta-inner">
-        <h2>도매 문의는 언제든지 환영합니다</h2>
-        <p>소매점, 식당, 카페, 급식업체 등 업종에 관계없이 상담해드립니다.</p>
-        <div class="cta-contacts">
-          <a href="tel:054-262-3323" class="cta-tel">📞 054-262-3323</a>
-          <a href="tel:010-3524-5144" class="cta-tel">📱 010-3524-5144</a>
-        </div>
-        <NuxtLink to="/contact" class="btn-outline-white">오시는 길 보기</NuxtLink>
-      </div>
-    </section>
   </div>
 </template>
 
@@ -107,8 +95,8 @@
 
 .hero-badge {
   display: inline-block;
-  background: #edf9f0;
-  color: #2d7a3a;
+  background: var(--color-primary-light);
+  color: var(--color-primary);
   font-size: 0.8rem;
   font-weight: 700;
   padding: 6px 14px;
@@ -126,7 +114,7 @@
 }
 
 .accent {
-  color: #2d7a3a;
+  color: var(--color-primary);
 }
 
 .hero-desc {
@@ -145,7 +133,7 @@
 /* 버튼 */
 .btn-primary {
   display: inline-block;
-  background: #2d7a3a;
+  background: var(--color-primary);
   color: #fff;
   font-weight: 700;
   font-size: 0.95rem;
@@ -154,12 +142,12 @@
   text-decoration: none;
   transition: background 0.2s;
 }
-.btn-primary:hover { background: #235f2c; }
+.btn-primary:hover { background: var(--color-primary-dark); }
 
 .btn-outline {
   display: inline-block;
-  border: 2px solid #2d7a3a;
-  color: #2d7a3a;
+  border: 2px solid var(--color-primary);
+  color: var(--color-primary);
   font-weight: 700;
   font-size: 0.95rem;
   padding: 12px 28px;
@@ -168,26 +156,10 @@
   transition: all 0.2s;
 }
 .btn-outline:hover {
-  background: #2d7a3a;
+  background: var(--color-primary);
   color: #fff;
 }
 
-.btn-outline-white {
-  display: inline-block;
-  border: 2px solid #fff;
-  color: #fff;
-  font-weight: 700;
-  font-size: 0.95rem;
-  padding: 12px 28px;
-  border-radius: 8px;
-  text-decoration: none;
-  transition: all 0.2s;
-  margin-top: 8px;
-}
-.btn-outline-white:hover {
-  background: #fff;
-  color: #2d7a3a;
-}
 
 /* 히어로 비주얼 */
 .hero-visual {
@@ -217,7 +189,7 @@
   font-weight: 700;
   color: #333;
 }
-.fruit-card.kiwi  { background: #edf9f0; }
+.fruit-card.kiwi  { background: var(--color-primary-light); }
 .fruit-card.lemon { background: #fffbea; }
 .fruit-card.mango { background: #fff4e6; }
 .fruit-card.orange { background: #fff0e0; }
@@ -239,7 +211,7 @@
 
 /* 특징 */
 .features {
-  background: #f8fdf9;
+  background: var(--color-primary-bg);
 }
 
 .feature-list {
@@ -317,47 +289,6 @@
   text-align: center;
 }
 
-/* CTA 섹션 */
-.cta-section {
-  background: linear-gradient(135deg, #2d7a3a 0%, #3d9e4e 100%);
-  color: #fff;
-}
-
-.cta-inner {
-  text-align: center;
-}
-
-.cta-inner h2 {
-  font-size: 1.75rem;
-  font-weight: 900;
-  margin-bottom: 12px;
-}
-
-.cta-inner > p {
-  font-size: 1rem;
-  opacity: 0.85;
-  margin-bottom: 32px;
-}
-
-.cta-contacts {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-  flex-wrap: wrap;
-  margin-bottom: 24px;
-}
-
-.cta-tel {
-  font-size: 1.1rem;
-  font-weight: 700;
-  color: #fff;
-  text-decoration: none;
-  background: rgba(255,255,255,0.15);
-  padding: 12px 24px;
-  border-radius: 8px;
-  transition: background 0.2s;
-}
-.cta-tel:hover { background: rgba(255,255,255,0.25); }
 
 /* 반응형 */
 @media (max-width: 900px) {

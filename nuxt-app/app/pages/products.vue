@@ -2,7 +2,6 @@
   <div>
     <section class="page-hero">
       <div class="page-hero-inner">
-        <p class="hero-badge">취급 상품</p>
         <h1>프리미엄 수입과일</h1>
         <p>산지에서 직접 엄선한 신선한 과일을 합리적인 도매가로 공급합니다.</p>
       </div>
@@ -147,8 +146,8 @@
 
 <style scoped>
 .page-hero {
-  background: linear-gradient(135deg, #f8fdf9 0%, #edf9f0 100%);
-  border-bottom: 1px solid #e0f0e4;
+  background: linear-gradient(135deg, var(--color-primary-bg) 0%, var(--color-primary-light) 100%);
+  border-bottom: 1px solid var(--color-primary-border);
 }
 
 .page-hero-inner {
@@ -160,7 +159,7 @@
 
 .hero-badge {
   display: inline-block;
-  background: #2d7a3a;
+  background: var(--color-primary);
   color: #fff;
   font-size: 0.78rem;
   font-weight: 700;
@@ -211,8 +210,8 @@
 
 .product-detail-card.featured {
   grid-column: 1 / -1;
-  background: linear-gradient(135deg, #f6fdf7 0%, #edf9f0 100%);
-  border-color: #c3e6cb;
+  background: linear-gradient(135deg, var(--color-primary-bg) 0%, var(--color-primary-light) 100%);
+  border-color: var(--color-primary-border);
 }
 
 .product-detail-card.inquiry {
@@ -232,7 +231,7 @@
 
 .card-badge {
   display: inline-block;
-  background: #f5a623;
+  background: var(--color-accent);
   color: #fff;
   font-size: 0.72rem;
   font-weight: 700;
@@ -271,15 +270,15 @@
 .card-features li {
   font-size: 0.8rem;
   font-weight: 600;
-  color: #2d7a3a;
-  background: #edf9f0;
+  color: var(--color-primary);
+  background: var(--color-primary-light);
   padding: 4px 12px;
   border-radius: 999px;
 }
 
 .btn-primary {
   display: inline-block;
-  background: #2d7a3a;
+  background: var(--color-primary);
   color: #fff;
   font-weight: 700;
   font-size: 0.95rem;
@@ -288,10 +287,10 @@
   text-decoration: none;
   transition: background 0.2s;
 }
-.btn-primary:hover { background: #235f2c; }
+.btn-primary:hover { background: var(--color-primary-dark); }
 
 .supply-info {
-  background: #f8fdf9;
+  background: var(--color-primary-bg);
 }
 
 .section-title {
